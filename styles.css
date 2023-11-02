@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+ol, ul {
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+}
+
+a {
+    color:rgb(245, 248, 244); 
+    text-decoration: none;
+    display: flex;
+}
+
+header {
+    background-color: rgba(26, 30, 99, 0.918);
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1cm;
+}
+
+
+header i {
+    display: block;
+    color: white;
+    font-size: 3em;
+    padding: 1em;
+    justify-content: right;
+    
+    /* https://carontestudio.com/blog/listado-de-propiedades-css/
+https://www.tiktok.com/@rocodev23/video/7206515731465243910?_r=1&u_code=dib7b8m2kkhmka&preview_pb=0&sharer_language=en&_d=e4ggaci26bamaj&share_item_id=7206515731465243910&source=h5_m&timestamp=1698285550&user_id=6957727352369923077&sec_user_id=MS4wLjABAAAAZ0UbQApQaxFfr-cZQZvcm33BJjO6BhdMJHGEaweItwUldqKegFmoMyU89jVbaOLd&social_share_type=0&utm_source=whatsapp&utm_campaign=client_share&utm_medium=android&share_iid=7293908945440474886&share_link_id=9ded6f00-6125-44ca-8614-cb50fc306f57&share_app_id=1233&ugbiz_name=MAIN&ug_btm=b6880%2Cb2878
+
+https://flexboxfroggy.com/#es
+    */
+    
+}
+
+header nav ul {
+    
+    display: flex;
+    gap:1.1em;
+    align-items: center;
+    
+    /* margin-right: em; */
+    
+    
+
+    /* align-items: center;
+    justify-content: space-between;  */
+
+}
+
+
+.seccion-1 {
+
+    background-color: beige;
+    color: black;
+    font-size: 20px;
+    padding: 1cm;
+    margin: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.seccion-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    background-color: rgb(146, 146, 192);
+    color: white;
+    padding:0cm, 1cm, 0.5cm, 1cm;
+    margin: 1cm;
+}
+
+.footer{
+color: aqua;
+}
