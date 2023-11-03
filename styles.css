@@ -78,6 +78,19 @@ header nav ul {
 
 }
 
+.greeting {
+    ackground-color: beige;
+    color: black;
+    font-size: 20px;
+    padding: 1cm;
+    margin: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
 footer {
     background-color: rgb(146, 146, 192);
     color: white;
